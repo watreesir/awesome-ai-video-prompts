@@ -1,0 +1,24 @@
+{
+  "id": "vertical-shorts-01",
+  "title": "Coffee pour hook",
+  "category": "vertical-shorts",
+  "prompt_en": "Vertical 9:16 close-up. Hot espresso pours into a clear glass of iced milk, creamy swirls blooming in slow motion. Camera static, slightly low angle. Warm morning window light from the left, shallow depth of field, dark wooden counter. First second already shows the pour; no text.",
+  "prompt_zh": "竖屏 9:16 特写。热浓缩咖啡倒入透明冰牛奶杯中，奶咖漩涡慢动作绽开。机位固定、略低角度。左侧温暖晨光，浅景深，深色木台面。第一秒就出现倒入动作，无文字。",
+  "aspect_ratio": "9:16",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Opens on motion in frame one to earn the scroll-stop; a single subject and a static camera reduce warping in liquid.",
+  "variations": [
+    "Swap espresso for matcha",
+    "Top-down angle instead of low angle"
+  ],
+  "result_check": [
+    "Pour starts within the first second",
+    "Liquid stays physically plausible, no glass deformation",
+    "Vertical composition keeps the glass centered"
+  ],
+  "sources": [
+    "original"
+  ]
+}

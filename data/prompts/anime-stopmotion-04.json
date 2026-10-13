@@ -1,0 +1,24 @@
+{
+  "id": "anime-stopmotion-04",
+  "title": "Felt diorama town",
+  "category": "anime-stopmotion",
+  "prompt_en": "Stop-motion felt and paper diorama, 16:9. A tiny felt bus drives through a paper town, wobbling slightly, cotton clouds above. Tilt-shift look, warm craft textures, handmade charm.",
+  "prompt_zh": "毛毡与纸艺定格微缩场景，16:9。一辆小小的毛毡巴士驶过纸做的小镇，轻微晃动，上方是棉花云。移轴效果，温暖手工质感，手作魅力。",
+  "aspect_ratio": "16:9",
+  "duration": "4-6s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Material words (felt, paper, cotton) plus tilt-shift strongly cue the miniature look.",
+  "variations": [
+    "Winter snow town",
+    "Night with tiny lights"
+  ],
+  "result_check": [
+    "Textures look handmade",
+    "Bus movement slightly jittery",
+    "Scale feels miniature"
+  ],
+  "sources": [
+    "original"
+  ]
+}

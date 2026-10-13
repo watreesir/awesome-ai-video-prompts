@@ -1,0 +1,24 @@
+{
+  "id": "cinematic-shots-01",
+  "title": "Desert lone rider",
+  "category": "cinematic-shots",
+  "prompt_en": "21:9 wide establishing shot. A lone rider on horseback crosses vast orange sand dunes at golden hour, long shadow stretching to the right. Camera slowly tracks sideways. Anamorphic lens look, subtle film grain, epic and quiet.",
+  "prompt_zh": "21:9 大全景建立镜头。孤独骑者在金色时刻穿越广阔的橙色沙丘，长长的影子向右延伸。镜头缓慢横移。变形宽银幕镜头质感，轻微胶片颗粒，壮阔而安静。",
+  "aspect_ratio": "21:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Scale contrast (tiny subject, vast land) plus a lateral track is a dependable cinematic formula.",
+  "variations": [
+    "Snowfield version",
+    "Blue hour"
+  ],
+  "result_check": [
+    "Horse gait looks plausible",
+    "Horizon stays level",
+    "Grain is subtle"
+  ],
+  "sources": [
+    "original"
+  ]
+}

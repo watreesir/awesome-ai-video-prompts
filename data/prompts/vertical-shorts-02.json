@@ -1,0 +1,24 @@
+{
+  "id": "vertical-shorts-02",
+  "title": "Street food sizzle",
+  "category": "vertical-shorts",
+  "prompt_en": "Vertical 9:16 handheld shot at a night market stall. A cook flips skewers on a flaming grill, sparks rising, smoke catching neon signs. Camera slowly pushes in toward the grill. Bokeh crowd in background, saturated reds and teal, energetic mood.",
+  "prompt_zh": "竖屏 9:16 手持镜头，夜市摊位。摊主在明火烤架上翻动烤串，火星上升，烟雾映着霓虹招牌。镜头缓慢推近烤架。背景人群虚化，饱和的红与青色调，热闹氛围。",
+  "aspect_ratio": "9:16",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Combines a clear action, a single camera move and a lighting palette, which are the three things most video models follow best.",
+  "variations": [
+    "Rainy night with wet reflections",
+    "Static tripod framing"
+  ],
+  "result_check": [
+    "Hands and skewers stay coherent while flipping",
+    "Push-in is smooth",
+    "Neon text, if any, is not required to be readable"
+  ],
+  "sources": [
+    "original"
+  ]
+}

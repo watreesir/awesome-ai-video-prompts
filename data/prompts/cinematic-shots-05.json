@@ -1,0 +1,24 @@
+{
+  "id": "cinematic-shots-05",
+  "title": "Crane up city reveal",
+  "category": "cinematic-shots",
+  "prompt_en": "21:9. Camera starts at street level on a busy crosswalk, then cranes up smoothly over rooftops revealing a city skyline at sunset. Warm haze, birds crossing frame, grand and hopeful.",
+  "prompt_zh": "21:9。镜头从繁忙斑马线的街面开始，平稳升起越过屋顶，展现日落时的城市天际线。温暖薄雾，鸟群掠过画面，宏大而充满希望。",
+  "aspect_ratio": "21:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "One continuous, named camera move (crane up) structures the whole clip as a reveal.",
+  "variations": [
+    "Night skyline",
+    "Coastal town"
+  ],
+  "result_check": [
+    "Move is continuous, no cuts",
+    "Architecture stays stable",
+    "Sunset lighting consistent"
+  ],
+  "sources": [
+    "original"
+  ]
+}

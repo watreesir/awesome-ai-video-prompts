@@ -1,0 +1,24 @@
+{
+  "id": "nature-landscapes-03",
+  "title": "Northern lights lake",
+  "category": "nature-landscapes",
+  "prompt_en": "16:9 time-lapse style. Green and purple aurora ripple across a starry sky above a still mountain lake, reflected in the water. Static camera, silhouetted pines, cold night atmosphere.",
+  "prompt_zh": "16:9 延时摄影风格。绿色和紫色极光在星空中波动，倒映在平静的高山湖面上。固定机位，松树剪影，寒冷夜晚的氛围。",
+  "aspect_ratio": "16:9",
+  "duration": "6-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "A static camera with sky motion and reflection is a reliable way to show natural phenomena.",
+  "variations": [
+    "Snow falling",
+    "Milky Way instead"
+  ],
+  "result_check": [
+    "Reflection mirrors sky",
+    "Aurora motion is smooth",
+    "Stars don't flicker unnaturally"
+  ],
+  "sources": [
+    "original"
+  ]
+}

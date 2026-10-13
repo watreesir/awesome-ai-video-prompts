@@ -1,0 +1,24 @@
+{
+  "id": "ai-ugc-05",
+  "title": "Recipe reaction taste",
+  "category": "ai-ugc",
+  "prompt_en": "Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made pasta, closes her eyes and smiles, then gives a thumbs-up to the camera. Warm tungsten kitchen light, handheld, real home feel.",
+  "prompt_zh": "竖屏 9:16。女性在家里厨房台面前尝一口刚做好的意面，闭眼微笑，然后对镜头竖起大拇指。温暖的钨丝灯厨房光，手持拍摄，真实居家感。",
+  "aspect_ratio": "9:16",
+  "duration": "5-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Reaction beats (bite, pause, smile, gesture) create a mini story within a short clip.",
+  "variations": [
+    "Dessert version",
+    "Outdoor picnic"
+  ],
+  "result_check": [
+    "Fork and food interaction is believable",
+    "Thumbs-up hand is correct",
+    "Expression change is visible"
+  ],
+  "sources": [
+    "original"
+  ]
+}

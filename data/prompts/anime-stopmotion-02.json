@@ -1,0 +1,24 @@
+{
+  "id": "anime-stopmotion-02",
+  "title": "Claymation breakfast",
+  "category": "anime-stopmotion",
+  "prompt_en": "Stop-motion claymation, 16:9. A clay fried egg hops out of a pan onto a plate, followed by two strips of bacon that wiggle into a smile shape. Visible fingerprints on clay, slightly choppy 12fps feel, warm kitchen set.",
+  "prompt_zh": "黏土定格动画，16:9。黏土荷包蛋从锅里跳到盘子上，两条培根扭动着排成笑脸。黏土上可见指纹，略带卡顿的 12fps 感，温暖的厨房布景。",
+  "aspect_ratio": "16:9",
+  "duration": "4-6s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Explicitly asking for frame-rate choppiness and fingerprints tells the model to avoid overly smooth CG motion.",
+  "variations": [
+    "Clay animals",
+    "Paper cutout style"
+  ],
+  "result_check": [
+    "Clay texture visible",
+    "Motion has stepped feel",
+    "Final smile shape readable"
+  ],
+  "sources": [
+    "original"
+  ]
+}

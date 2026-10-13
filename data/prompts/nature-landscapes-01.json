@@ -1,0 +1,24 @@
+{
+  "id": "nature-landscapes-01",
+  "title": "Misty forest dawn",
+  "category": "nature-landscapes",
+  "prompt_en": "16:9. Sunbeams break through a misty pine forest at dawn, light rays moving slowly as fog drifts. Camera slowly pushes forward along a moss path. Green and gold tones, peaceful, natural.",
+  "prompt_zh": "16:9。黎明时阳光穿透薄雾笼罩的松林，雾气飘动，光束缓慢移动。镜头沿着苔藓小路缓慢前推。绿色与金色调，宁静自然。",
+  "aspect_ratio": "16:9",
+  "duration": "6-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Volumetric light plus drifting fog gives motion even with a slow camera.",
+  "variations": [
+    "Autumn birch forest",
+    "Rain shower"
+  ],
+  "result_check": [
+    "Light rays look volumetric",
+    "Trees don't warp during push",
+    "Fog moves slowly"
+  ],
+  "sources": [
+    "original"
+  ]
+}

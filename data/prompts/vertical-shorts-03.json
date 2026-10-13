@@ -1,0 +1,24 @@
+{
+  "id": "vertical-shorts-03",
+  "title": "Before/after room reveal",
+  "category": "vertical-shorts",
+  "prompt_en": "Vertical 9:16. A messy desk covered in cables and papers; camera tilts up slowly, and as it returns down the desk is clean and minimal with a plant and a lamp. Soft daylight, consistent room and window position throughout.",
+  "prompt_zh": "竖屏 9:16。一张堆满线缆和纸张的凌乱书桌，镜头缓慢上摇，回落时书桌变得整洁极简，有一盆绿植和一盏台灯。柔和日光，房间和窗户位置全程保持一致。",
+  "aspect_ratio": "9:16",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Uses a camera tilt as a hidden transition so the change happens off-frame, a common way to make transformation clips read clearly.",
+  "variations": [
+    "Kitchen counter version",
+    "Closet before/after"
+  ],
+  "result_check": [
+    "Room layout stays consistent",
+    "Transition hides inside the tilt",
+    "Clean state looks clearly different"
+  ],
+  "sources": [
+    "original"
+  ]
+}

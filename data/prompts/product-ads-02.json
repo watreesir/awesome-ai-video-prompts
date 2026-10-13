@@ -1,0 +1,24 @@
+{
+  "id": "product-ads-02",
+  "title": "Sneaker splash",
+  "category": "product-ads",
+  "prompt_en": "16:9 slow-motion shot. A white running sneaker lands on a shallow puddle, water splashing outward in a crown shape. Low camera at ground level, backlit by sunset, droplets glowing. Clean urban pavement.",
+  "prompt_zh": "16:9 慢动作。一只白色跑鞋落在浅水洼上，水花呈皇冠状向外溅开。机位贴地，日落逆光，水滴发光。干净的城市路面。",
+  "aspect_ratio": "16:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "A single impact moment with backlight emphasizes texture; ground-level angle makes the product feel heroic.",
+  "variations": [
+    "Dust instead of water",
+    "Night with streetlight"
+  ],
+  "result_check": [
+    "Shoe design stays stable",
+    "Splash looks natural",
+    "Slow motion is visible"
+  ],
+  "sources": [
+    "original"
+  ]
+}

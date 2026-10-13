@@ -1,0 +1,24 @@
+{
+  "id": "nature-landscapes-04",
+  "title": "Waterfall close",
+  "category": "nature-landscapes",
+  "prompt_en": "16:9. Close view of a jungle waterfall, water cascading over mossy rocks, mist rising, ferns trembling in the spray. Slight slow motion, lush green, bright diffused light.",
+  "prompt_zh": "16:9。丛林瀑布近景，水流从长满苔藓的岩石上倾泻，雾气升腾，蕨类在水雾中颤动。轻微慢动作，郁郁葱葱的绿色，明亮漫射光。",
+  "aspect_ratio": "16:9",
+  "duration": "6-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Secondary motion (ferns trembling, mist) adds realism around the main water motion.",
+  "variations": [
+    "Frozen waterfall",
+    "Sunset backlight"
+  ],
+  "result_check": [
+    "Water flow continuous",
+    "Rocks remain solid",
+    "Mist subtle"
+  ],
+  "sources": [
+    "original"
+  ]
+}

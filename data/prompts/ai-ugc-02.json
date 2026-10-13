@@ -1,0 +1,24 @@
+{
+  "id": "ai-ugc-02",
+  "title": "Unboxing at desk",
+  "category": "ai-ugc",
+  "prompt_en": "Vertical 9:16 first-person view. Hands open a cardboard box on a desk, lift out tissue paper and reveal a small speaker. Warm desk lamp light, casual room background slightly blurred, handheld.",
+  "prompt_zh": "竖屏 9:16 第一人称视角。双手在桌上打开纸箱，拿起包装纸，露出一个小音箱。温暖台灯光，随意的房间背景轻微虚化，手持拍摄。",
+  "aspect_ratio": "9:16",
+  "duration": "5-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Point-of-view unboxing avoids face consistency issues and mirrors a familiar creator format.",
+  "variations": [
+    "Reveal a mug",
+    "Daylight version"
+  ],
+  "result_check": [
+    "Box opening sequence makes sense",
+    "Hands have correct fingers",
+    "Product appears clearly at end"
+  ],
+  "sources": [
+    "original"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "nature-landscapes-02",
+  "title": "Ocean cliff waves",
+  "category": "nature-landscapes",
+  "prompt_en": "16:9 aerial drone shot. Turquoise waves crash against dark rocky cliffs, white foam spreading. Drone slowly flies along the coastline. Overcast soft light, dramatic and fresh.",
+  "prompt_zh": "16:9 无人机航拍。碧绿海浪拍打黑色岩石悬崖，白色泡沫散开。无人机沿海岸线缓慢飞行。阴天柔光，壮观而清新。",
+  "aspect_ratio": "16:9",
+  "duration": "6-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Aerial + linear path is one of the most stable landscape setups for video models.",
+  "variations": [
+    "Sunset light",
+    "Stormy sea"
+  ],
+  "result_check": [
+    "Wave motion is realistic",
+    "Coastline consistent",
+    "No sudden camera jumps"
+  ],
+  "sources": [
+    "original"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "anime-stopmotion-05",
+  "title": "Mecha hangar anime",
+  "category": "anime-stopmotion",
+  "prompt_en": "Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam vents hiss, cables drop away. Low angle camera, dramatic lighting, detailed mechanical lines, 90s anime aesthetic.",
+  "prompt_zh": "日系动画风格，16:9。机库里的巨型机器人启动：眼睛亮起，排气口喷出蒸汽，线缆脱落。低角度镜头，戏剧化光照，细致的机械线条，90 年代动画美学。",
+  "aspect_ratio": "16:9",
+  "duration": "4-6s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "A clear trigger-to-effect sequence (power on → lights → steam) gives the model ordered events.",
+  "variations": [
+    "Rainy launch pad",
+    "Small drone version"
+  ],
+  "result_check": [
+    "Robot design remains stable",
+    "Effects happen in order",
+    "Retro anime color grading"
+  ],
+  "sources": [
+    "original"
+  ]
+}

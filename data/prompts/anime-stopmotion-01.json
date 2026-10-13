@@ -1,0 +1,24 @@
+{
+  "id": "anime-stopmotion-01",
+  "title": "Anime rooftop wind",
+  "category": "anime-stopmotion",
+  "prompt_en": "Anime style, 16:9. A high school girl stands on a rooftop at sunset, wind blowing her hair and scarf, cherry petals drifting past. Hand-drawn look, soft cel shading, warm pastel sky, gentle camera pan.",
+  "prompt_zh": "日系动画风格，16:9。高中女生站在日落时的天台上，风吹动她的头发和围巾，樱花瓣飘过。手绘质感，柔和赛璐璐着色，暖色粉彩天空，镜头轻柔平移。",
+  "aspect_ratio": "16:9",
+  "duration": "4-6s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Wind-driven secondary motion (hair, scarf, petals) is where anime style looks most alive.",
+  "variations": [
+    "Rainy version",
+    "Night with city lights"
+  ],
+  "result_check": [
+    "Line art stays clean",
+    "Hair motion is fluid",
+    "Character proportions stable"
+  ],
+  "sources": [
+    "original"
+  ]
+}

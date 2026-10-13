@@ -1,0 +1,24 @@
+{
+  "id": "ai-ugc-04",
+  "title": "Gym bag essentials",
+  "category": "ai-ugc",
+  "prompt_en": "Vertical 9:16 top-down. Hands place items one by one into an open gym bag: water bottle, towel, headphones, shoes. Bright natural light, wooden floor, quick casual pace.",
+  "prompt_zh": "竖屏 9:16 俯拍。双手把物品逐一放进打开的健身包：水瓶、毛巾、耳机、鞋子。明亮自然光，木地板，节奏轻快随意。",
+  "aspect_ratio": "9:16",
+  "duration": "5-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "'What's in my bag' list format gives a clear sequence the model can follow.",
+  "variations": [
+    "Travel carry-on",
+    "School backpack"
+  ],
+  "result_check": [
+    "Each item is distinguishable",
+    "Items don't merge",
+    "Order roughly follows prompt"
+  ],
+  "sources": [
+    "original"
+  ]
+}

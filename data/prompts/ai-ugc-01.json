@@ -1,0 +1,24 @@
+{
+  "id": "ai-ugc-01",
+  "title": "Morning routine selfie",
+  "category": "ai-ugc",
+  "prompt_en": "Vertical 9:16 selfie-style video. A young woman in a bathroom mirror holds her phone, smiles and lifts a small skincare jar toward the camera, then nods. Natural bathroom light, slightly handheld, authentic casual feel, no text.",
+  "prompt_zh": "竖屏 9:16 自拍风格。年轻女性在浴室镜前举着手机，微笑并把一小罐护肤品举向镜头，然后点头。自然的浴室光线，轻微手持晃动，真实随意的感觉，无文字。",
+  "aspect_ratio": "9:16",
+  "duration": "5-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "UGC works when it looks unpolished: handheld feel, natural light and a single simple gesture.",
+  "variations": [
+    "Man shaving version",
+    "Outdoor balcony setting"
+  ],
+  "result_check": [
+    "Face stays consistent",
+    "Hands and jar look natural",
+    "Feels like phone footage, not studio"
+  ],
+  "sources": [
+    "original"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "nature-landscapes-05",
+  "title": "Wheat field wind",
+  "category": "nature-landscapes",
+  "prompt_en": "16:9 low angle. Golden wheat sways in waves under a big summer sky with slow-moving clouds. Camera slowly glides through the wheat tops. Warm late-afternoon sun, nostalgic mood.",
+  "prompt_zh": "16:9 低角度。金色麦浪在夏日大天空下摇曳，云朵缓慢移动。镜头缓缓滑过麦穗顶端。温暖的午后阳光，怀旧氛围。",
+  "aspect_ratio": "16:9",
+  "duration": "6-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Wind patterns across a field are visually clear and forgiving of small errors.",
+  "variations": [
+    "Lavender field",
+    "Storm approaching"
+  ],
+  "result_check": [
+    "Wind waves travel across field",
+    "Clouds move slowly",
+    "Camera glide smooth"
+  ],
+  "sources": [
+    "original"
+  ]
+}

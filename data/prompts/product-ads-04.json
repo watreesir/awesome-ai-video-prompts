@@ -1,0 +1,24 @@
+{
+  "id": "product-ads-04",
+  "title": "Headphones floating",
+  "category": "product-ads",
+  "prompt_en": "16:9 studio shot. Over-ear headphones float and rotate slowly in mid-air against a gradient background from deep blue to violet. Subtle particles drift; soft key light from above; camera slowly orbits.",
+  "prompt_zh": "16:9 摄影棚镜头。头戴式耳机悬浮在空中缓慢旋转，背景从深蓝渐变到紫色。微粒轻轻漂浮，上方柔和主光，镜头缓慢环绕。",
+  "aspect_ratio": "16:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Floating product plus gentle orbit is a classic tech-ad look and avoids hands and complex interactions.",
+  "variations": [
+    "Smartwatch version",
+    "Bright white background"
+  ],
+  "result_check": [
+    "Headband and ear cups stay attached",
+    "Orbit is smooth",
+    "No duplicate products appear"
+  ],
+  "sources": [
+    "original"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cinematic-shots-02",
+  "title": "Rainy neon alley",
+  "category": "cinematic-shots",
+  "prompt_en": "21:9 medium shot. A woman in a trench coat walks toward camera through a narrow alley at night, rain falling, neon signs reflecting in puddles. Camera slowly dollies backward. Teal and magenta palette, moody noir.",
+  "prompt_zh": "21:9 中景。穿风衣的女人在夜晚窄巷中朝镜头走来，雨水落下，霓虹招牌倒映在水洼里。镜头缓慢后移。青色与洋红色调，氛围感黑色电影。",
+  "aspect_ratio": "21:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Walk-toward-camera with dolly back keeps the subject size stable, reducing drift; rain and reflections add depth.",
+  "variations": [
+    "Umbrella added",
+    "Snow instead of rain"
+  ],
+  "result_check": [
+    "Walking motion is natural",
+    "Reflections respond to light",
+    "Face stays consistent"
+  ],
+  "sources": [
+    "original"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ai-ugc-03",
+  "title": "Talking-to-camera review",
+  "category": "ai-ugc",
+  "prompt_en": "Vertical 9:16 medium close-up. A man in a hoodie sits in his car, looks into the phone camera and talks with expressive eyebrows, occasionally gesturing with one hand. Daylight through windshield, casual and honest tone.",
+  "prompt_zh": "竖屏 9:16 中近景。穿连帽衫的男人坐在车里，看着手机镜头说话，眉毛表情丰富，偶尔用一只手比划。日光透过挡风玻璃，随意真诚的语气。",
+  "aspect_ratio": "9:16",
+  "duration": "5-10s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Car-selfie is a high-recognition UGC setting; describing gestures instead of exact speech avoids lip-sync promises.",
+  "variations": [
+    "Kitchen setting",
+    "Walking outdoors"
+  ],
+  "result_check": [
+    "Mouth motion looks natural",
+    "Lighting matches car interior",
+    "No added captions unless desired"
+  ],
+  "sources": [
+    "original"
+  ]
+}

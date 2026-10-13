@@ -1,0 +1,24 @@
+{
+  "id": "anime-stopmotion-03",
+  "title": "Chibi spell cast",
+  "category": "anime-stopmotion",
+  "prompt_en": "Anime chibi style, 16:9. A small wizard character waves a wand, glowing sparkles spiral out and form a star above its head. Bright colors, thick outlines, playful bouncy motion, simple forest background.",
+  "prompt_zh": "Q版动画风格，16:9。小巫师角色挥动魔杖，发光的星光螺旋飞出，在头顶形成一颗星星。明亮色彩，粗轮廓线，俏皮弹跳的动作，简单的森林背景。",
+  "aspect_ratio": "16:9",
+  "duration": "4-6s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Simple shapes and thick outlines keep chibi characters stable across frames.",
+  "variations": [
+    "Fire spell",
+    "Underwater setting"
+  ],
+  "result_check": [
+    "Character shape consistent",
+    "Sparkles form a star",
+    "Colors bright and flat"
+  ],
+  "sources": [
+    "original"
+  ]
+}

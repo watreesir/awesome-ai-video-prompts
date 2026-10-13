@@ -1,0 +1,24 @@
+{
+  "id": "cinematic-shots-04",
+  "title": "Train window drift",
+  "category": "cinematic-shots",
+  "prompt_en": "21:9 shot from inside a moving train. Rain streaks on the window, countryside lights blur past outside, a passenger's reflection faintly visible. Slow, melancholic, cool blue tones.",
+  "prompt_zh": "21:9 从行驶中的火车内拍摄。雨丝划过车窗，窗外乡村灯光模糊掠过，乘客的倒影隐约可见。缓慢、忧郁、冷蓝色调。",
+  "aspect_ratio": "21:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Layered depth (drops, reflection, outside motion) produces a cinematic mood with minimal character action.",
+  "variations": [
+    "Sunny daytime",
+    "Subway tunnel"
+  ],
+  "result_check": [
+    "Outside motion is parallax-consistent",
+    "Reflection is subtle",
+    "Rain streaks move downward/diagonal"
+  ],
+  "sources": [
+    "original"
+  ]
+}

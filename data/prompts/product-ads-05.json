@@ -1,0 +1,24 @@
+{
+  "id": "product-ads-05",
+  "title": "Coffee bag lifestyle",
+  "category": "product-ads",
+  "prompt_en": "16:9 medium shot. A kraft paper coffee bag sits on a sunlit kitchen counter next to a steaming mug; morning light streams through blinds, casting striped shadows that slowly move. Calm, warm, natural.",
+  "prompt_zh": "16:9 中景。牛皮纸咖啡袋放在洒满阳光的厨房台面上，旁边是一杯冒热气的咖啡；晨光穿过百叶窗投下条纹阴影并缓慢移动。安静、温暖、自然。",
+  "aspect_ratio": "16:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Lifestyle context with moving shadows adds life while the product itself stays still and undistorted.",
+  "variations": [
+    "Tea tin version",
+    "Rainy window ambiance"
+  ],
+  "result_check": [
+    "Bag stays still and consistent",
+    "Steam rises naturally",
+    "Shadow motion is slow"
+  ],
+  "sources": [
+    "original"
+  ]
+}

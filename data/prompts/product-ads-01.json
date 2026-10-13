@@ -1,0 +1,24 @@
+{
+  "id": "product-ads-01",
+  "title": "Perfume hero turntable",
+  "category": "product-ads",
+  "prompt_en": "16:9 product shot. A glass perfume bottle rotates slowly on a black reflective turntable. A thin rim light outlines the bottle, soft mist drifts behind it, small light glints travel across the glass. Luxury, minimal, dark background.",
+  "prompt_zh": "16:9 产品镜头。玻璃香水瓶在黑色反光转台上缓慢旋转。细轮廓光勾勒瓶身，后方飘着薄雾，光点在玻璃上流动。奢华、极简、深色背景。",
+  "aspect_ratio": "16:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Turntable rotation is a simple, predictable motion; rim light and mist add premium cues without new objects.",
+  "variations": [
+    "Champagne gold backdrop",
+    "Water droplets on the bottle"
+  ],
+  "result_check": [
+    "Bottle shape stays constant during rotation",
+    "Label area does not melt or morph",
+    "Reflections look consistent"
+  ],
+  "sources": [
+    "original"
+  ]
+}

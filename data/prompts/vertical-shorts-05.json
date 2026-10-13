@@ -1,0 +1,24 @@
+{
+  "id": "vertical-shorts-05",
+  "title": "Text-free tutorial step",
+  "category": "vertical-shorts",
+  "prompt_en": "Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Each fold is crisp and deliberate. Even soft-box lighting, minimal shadows, neutral colors, camera locked overhead.",
+  "prompt_zh": "竖屏 9:16 俯拍，双手在白色桌面上折纸鹤。每一折都干脆利落。均匀柔光箱照明，阴影很少，中性色调，镜头固定在正上方。",
+  "aspect_ratio": "9:16",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Overhead locked framing keeps hands readable and is a reliable format for how-to shorts without needing on-screen text.",
+  "variations": [
+    "Tie a tie instead",
+    "Latte art pouring"
+  ],
+  "result_check": [
+    "Fingers count looks correct",
+    "Paper folds progress logically",
+    "Frame remains top-down"
+  ],
+  "sources": [
+    "original"
+  ]
+}

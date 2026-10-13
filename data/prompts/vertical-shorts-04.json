@@ -1,0 +1,24 @@
+{
+  "id": "vertical-shorts-04",
+  "title": "Pet reaction close-up",
+  "category": "vertical-shorts",
+  "prompt_en": "Vertical 9:16 eye-level close-up of a golden retriever puppy on a sofa. Off-screen a squeaky toy sounds; the puppy tilts its head left, then right, ears perking up. Soft indoor afternoon light, cozy beige tones, static camera.",
+  "prompt_zh": "竖屏 9:16 平视特写，金毛幼犬在沙发上。画外传来玩具吱吱声，小狗先向左再向右歪头，耳朵竖起。柔和的室内午后光，温暖米色调，固定机位。",
+  "aspect_ratio": "9:16",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "A small, sequenced action (left then right) is easier for models than complex motion and reads instantly on a phone screen.",
+  "variations": [
+    "Cat version with a laser dot",
+    "Add a slow push-in"
+  ],
+  "result_check": [
+    "Two distinct head tilts",
+    "Fur and eyes stay stable",
+    "No extra limbs or warping"
+  ],
+  "sources": [
+    "original"
+  ]
+}

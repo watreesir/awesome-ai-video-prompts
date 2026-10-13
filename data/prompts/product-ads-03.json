@@ -1,0 +1,24 @@
+{
+  "id": "product-ads-03",
+  "title": "Skincare texture macro",
+  "category": "product-ads",
+  "prompt_en": "16:9 macro shot. A drop of clear serum falls onto a frosted glass surface and spreads slowly. Soft diffused pastel light, pink and cream tones, very shallow depth of field, calm clinical aesthetic.",
+  "prompt_zh": "16:9 微距。一滴透明精华液落在磨砂玻璃上并缓慢铺开。柔和漫射的粉彩光，粉色与奶油色调，极浅景深，安静干净的质感。",
+  "aspect_ratio": "16:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Texture macros sell skincare without needing faces or exact branding, which models often distort.",
+  "variations": [
+    "Cream swirl instead of serum",
+    "Add a bottle out of focus behind"
+  ],
+  "result_check": [
+    "Liquid behaves like a viscous drop",
+    "No unwanted text",
+    "Colors stay soft and consistent"
+  ],
+  "sources": [
+    "original"
+  ]
+}

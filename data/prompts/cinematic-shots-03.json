@@ -1,0 +1,24 @@
+{
+  "id": "cinematic-shots-03",
+  "title": "Candlelit portrait",
+  "category": "cinematic-shots",
+  "prompt_en": "21:9 close-up. An old man's face lit only by a candle, flame flickering, he slowly looks up from a book toward the camera. Deep shadows, warm amber tones, Rembrandt lighting, shallow depth of field.",
+  "prompt_zh": "21:9 特写。老人的脸只被烛光照亮，火焰摇曳，他从书上缓缓抬头看向镜头。深沉阴影，暖琥珀色调，伦勃朗光，浅景深。",
+  "aspect_ratio": "21:9",
+  "duration": "5-8s",
+  "model_tested": [],
+  "test_status": "Untested",
+  "why_it_works": "Naming a known lighting style (Rembrandt) gives a compact, widely understood instruction.",
+  "variations": [
+    "Young woman version",
+    "Lantern instead of candle"
+  ],
+  "result_check": [
+    "Flicker affects skin light",
+    "Eye line moves to camera",
+    "Wrinkles and skin look natural"
+  ],
+  "sources": [
+    "original"
+  ]
+}
