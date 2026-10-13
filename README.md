@@ -8,6 +8,8 @@ English | [简体中文](README.zh-CN.md)
 
 Maintained by [Everygen AI](https://everygenai.io/), a browser studio for AI video, image and music creation.
 
+Want to assemble your own? Try the rule-based [AI Video Prompt Builder on Hugging Face](https://huggingface.co/spaces/everygen-ai/awesome-ai-video-prompt-builder) (runs in your browser, no API).
+
 ## Contents
 
 - [Vertical Shorts](#vertical-shorts) (5)

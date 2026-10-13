@@ -8,6 +8,8 @@
 
 维护者：[Everygen AI](https://everygenai.io/)，一个在浏览器里创作 AI 视频、图片和音乐的工作室。
 
+想快速拼一条结构化提示词？试试在线的 [AI 视频提示词构建器](https://huggingface.co/spaces/everygen-ai/awesome-ai-video-prompt-builder)（纯规则、浏览器内运行、不调用 API）。
+
 ## 目录
 
 - [竖屏短视频](#vertical-shorts) (5)

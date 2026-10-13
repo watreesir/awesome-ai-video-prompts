@@ -18,6 +18,7 @@ if (errs.length) { console.error(errs.join('\n')); process.exit(1); }
 const by = c => prompts.filter(p => p.category === c);
 const HOME = 'https://everygenai.io/';
 const GUIDE = 'https://everygenai.io/guides/video-prompt-guide';
+const SPACE = 'https://huggingface.co/spaces/everygen-ai/awesome-ai-video-prompt-builder';
 const MODEL = 'https://everygenai.io/guides/choose-a-model';
 const md = zh => {
   const L = [];
@@ -27,6 +28,7 @@ const md = zh => {
             : `${prompts.length} original AI video prompts in ${Object.keys(cats).length} categories. Each entry has an English and Chinese prompt, why it works, variations and a result checklist. Prompts are CC0.`, '');
   L.push(zh ? '> **测试状态**：标记 `Untested` 的条目尚未实际生成验证，“设计理由”是写作思路，不是实测结论。' : '> **Test status:** entries marked `Untested` have not been generated yet. "Why it works" explains the design intent, not a measured result.', '');
   L.push(zh ? `维护者：[Everygen AI](${HOME})，一个在浏览器里创作 AI 视频、图片和音乐的工作室。` : `Maintained by [Everygen AI](${HOME}), a browser studio for AI video, image and music creation.`, '');
+  L.push(zh ? `想快速拼一条结构化提示词？试试在线的 [AI 视频提示词构建器](${SPACE})（纯规则、浏览器内运行、不调用 API）。` : `Want to assemble your own? Try the rule-based [AI Video Prompt Builder on Hugging Face](${SPACE}) (runs in your browser, no API).`, '');
   L.push(zh ? '## 目录' : '## Contents', '');
   for (const [k, v] of Object.entries(cats)) L.push(`- [${zh ? v.zh : v.en}](#${k}) (${by(k).length})`);
   L.push('');
