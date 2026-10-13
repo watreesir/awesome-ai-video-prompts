@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Combines a clear action, a single camera move and a lighting palette, which are the three things most video models follow best.",
   "variations": [
     "Rainy night with wet reflections",

@@ -7,7 +7,6 @@
   "aspect_ratio": "21:9",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "One continuous, named camera move (crane up) structures the whole clip as a reveal.",
   "variations": [
     "Night skyline",

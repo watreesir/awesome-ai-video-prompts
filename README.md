@@ -4,8 +4,6 @@ English | [简体中文](README.zh-CN.md)
 
 30 original AI video prompts in 6 categories. Each entry has an English and Chinese prompt, why it works, variations and a result checklist. Prompts are CC0.
 
-> **Test status:** entries marked `Untested` have not been generated yet. "Why it works" explains the design intent, not a measured result.
-
 Maintained by [Everygen AI](https://everygenai.io/), a browser studio for AI video, image and music creation.
 
 Want to assemble your own? Try the rule-based [AI Video Prompt Builder on Hugging Face](https://huggingface.co/spaces/everygen-ai/awesome-ai-video-prompt-builder) (runs in your browser, no API).
@@ -25,7 +23,7 @@ Want to assemble your own? Try the rule-based [AI Video Prompt Builder on Huggin
 
 ### Coffee pour hook `vertical-shorts-01`
 
-`9:16` · `5-8s` · **Untested**
+`9:16` · `5-8s`
 
 ```text
 Vertical 9:16 close-up. Hot espresso pours into a clear glass of iced milk, creamy swirls blooming in slow motion. Camera static, slightly low angle. Warm morning window light from the left, shallow depth of field, dark wooden counter. First second already shows the pour; no text.
@@ -50,7 +48,7 @@ Vertical 9:16 close-up. Hot espresso pours into a clear glass of iced milk, crea
 
 ### Street food sizzle `vertical-shorts-02`
 
-`9:16` · `5-8s` · **Untested**
+`9:16` · `5-8s`
 
 ```text
 Vertical 9:16 handheld shot at a night market stall. A cook flips skewers on a flaming grill, sparks rising, smoke catching neon signs. Camera slowly pushes in toward the grill. Bokeh crowd in background, saturated reds and teal, energetic mood.
@@ -75,7 +73,7 @@ Vertical 9:16 handheld shot at a night market stall. A cook flips skewers on a f
 
 ### Before/after room reveal `vertical-shorts-03`
 
-`9:16` · `5-8s` · **Untested**
+`9:16` · `5-8s`
 
 ```text
 Vertical 9:16. A messy desk covered in cables and papers; camera tilts up slowly, and as it returns down the desk is clean and minimal with a plant and a lamp. Soft daylight, consistent room and window position throughout.
@@ -100,7 +98,7 @@ Vertical 9:16. A messy desk covered in cables and papers; camera tilts up slowly
 
 ### Pet reaction close-up `vertical-shorts-04`
 
-`9:16` · `5-8s` · **Untested**
+`9:16` · `5-8s`
 
 ```text
 Vertical 9:16 eye-level close-up of a golden retriever puppy on a sofa. Off-screen a squeaky toy sounds; the puppy tilts its head left, then right, ears perking up. Soft indoor afternoon light, cozy beige tones, static camera.
@@ -125,7 +123,7 @@ Vertical 9:16 eye-level close-up of a golden retriever puppy on a sofa. Off-scre
 
 ### Text-free tutorial step `vertical-shorts-05`
 
-`9:16` · `5-8s` · **Untested**
+`9:16` · `5-8s`
 
 ```text
 Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Each fold is crisp and deliberate. Even soft-box lighting, minimal shadows, neutral colors, camera locked overhead.
@@ -154,7 +152,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Perfume hero turntable `product-ads-01`
 
-`16:9` · `5-8s` · **Untested**
+`16:9` · `5-8s`
 
 ```text
 16:9 product shot. A glass perfume bottle rotates slowly on a black reflective turntable. A thin rim light outlines the bottle, soft mist drifts behind it, small light glints travel across the glass. Luxury, minimal, dark background.
@@ -179,7 +177,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Sneaker splash `product-ads-02`
 
-`16:9` · `5-8s` · **Untested**
+`16:9` · `5-8s`
 
 ```text
 16:9 slow-motion shot. A white running sneaker lands on a shallow puddle, water splashing outward in a crown shape. Low camera at ground level, backlit by sunset, droplets glowing. Clean urban pavement.
@@ -204,7 +202,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Skincare texture macro `product-ads-03`
 
-`16:9` · `5-8s` · **Untested**
+`16:9` · `5-8s`
 
 ```text
 16:9 macro shot. A drop of clear serum falls onto a frosted glass surface and spreads slowly. Soft diffused pastel light, pink and cream tones, very shallow depth of field, calm clinical aesthetic.
@@ -229,7 +227,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Headphones floating `product-ads-04`
 
-`16:9` · `5-8s` · **Untested**
+`16:9` · `5-8s`
 
 ```text
 16:9 studio shot. Over-ear headphones float and rotate slowly in mid-air against a gradient background from deep blue to violet. Subtle particles drift; soft key light from above; camera slowly orbits.
@@ -254,7 +252,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Coffee bag lifestyle `product-ads-05`
 
-`16:9` · `5-8s` · **Untested**
+`16:9` · `5-8s`
 
 ```text
 16:9 medium shot. A kraft paper coffee bag sits on a sunlit kitchen counter next to a steaming mug; morning light streams through blinds, casting striped shadows that slowly move. Calm, warm, natural.
@@ -283,7 +281,7 @@ Vertical 9:16 top-down shot of hands folding a paper crane on a white table. Eac
 
 ### Morning routine selfie `ai-ugc-01`
 
-`9:16` · `5-10s` · **Untested**
+`9:16` · `5-10s`
 
 ```text
 Vertical 9:16 selfie-style video. A young woman in a bathroom mirror holds her phone, smiles and lifts a small skincare jar toward the camera, then nods. Natural bathroom light, slightly handheld, authentic casual feel, no text.
@@ -308,7 +306,7 @@ Vertical 9:16 selfie-style video. A young woman in a bathroom mirror holds her p
 
 ### Unboxing at desk `ai-ugc-02`
 
-`9:16` · `5-10s` · **Untested**
+`9:16` · `5-10s`
 
 ```text
 Vertical 9:16 first-person view. Hands open a cardboard box on a desk, lift out tissue paper and reveal a small speaker. Warm desk lamp light, casual room background slightly blurred, handheld.
@@ -333,7 +331,7 @@ Vertical 9:16 first-person view. Hands open a cardboard box on a desk, lift out 
 
 ### Talking-to-camera review `ai-ugc-03`
 
-`9:16` · `5-10s` · **Untested**
+`9:16` · `5-10s`
 
 ```text
 Vertical 9:16 medium close-up. A man in a hoodie sits in his car, looks into the phone camera and talks with expressive eyebrows, occasionally gesturing with one hand. Daylight through windshield, casual and honest tone.
@@ -358,7 +356,7 @@ Vertical 9:16 medium close-up. A man in a hoodie sits in his car, looks into the
 
 ### Gym bag essentials `ai-ugc-04`
 
-`9:16` · `5-10s` · **Untested**
+`9:16` · `5-10s`
 
 ```text
 Vertical 9:16 top-down. Hands place items one by one into an open gym bag: water bottle, towel, headphones, shoes. Bright natural light, wooden floor, quick casual pace.
@@ -383,7 +381,7 @@ Vertical 9:16 top-down. Hands place items one by one into an open gym bag: water
 
 ### Recipe reaction taste `ai-ugc-05`
 
-`9:16` · `5-10s` · **Untested**
+`9:16` · `5-10s`
 
 ```text
 Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made pasta, closes her eyes and smiles, then gives a thumbs-up to the camera. Warm tungsten kitchen light, handheld, real home feel.
@@ -412,7 +410,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Desert lone rider `cinematic-shots-01`
 
-`21:9` · `5-8s` · **Untested**
+`21:9` · `5-8s`
 
 ```text
 21:9 wide establishing shot. A lone rider on horseback crosses vast orange sand dunes at golden hour, long shadow stretching to the right. Camera slowly tracks sideways. Anamorphic lens look, subtle film grain, epic and quiet.
@@ -437,7 +435,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Rainy neon alley `cinematic-shots-02`
 
-`21:9` · `5-8s` · **Untested**
+`21:9` · `5-8s`
 
 ```text
 21:9 medium shot. A woman in a trench coat walks toward camera through a narrow alley at night, rain falling, neon signs reflecting in puddles. Camera slowly dollies backward. Teal and magenta palette, moody noir.
@@ -462,7 +460,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Candlelit portrait `cinematic-shots-03`
 
-`21:9` · `5-8s` · **Untested**
+`21:9` · `5-8s`
 
 ```text
 21:9 close-up. An old man's face lit only by a candle, flame flickering, he slowly looks up from a book toward the camera. Deep shadows, warm amber tones, Rembrandt lighting, shallow depth of field.
@@ -487,7 +485,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Train window drift `cinematic-shots-04`
 
-`21:9` · `5-8s` · **Untested**
+`21:9` · `5-8s`
 
 ```text
 21:9 shot from inside a moving train. Rain streaks on the window, countryside lights blur past outside, a passenger's reflection faintly visible. Slow, melancholic, cool blue tones.
@@ -512,7 +510,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Crane up city reveal `cinematic-shots-05`
 
-`21:9` · `5-8s` · **Untested**
+`21:9` · `5-8s`
 
 ```text
 21:9. Camera starts at street level on a busy crosswalk, then cranes up smoothly over rooftops revealing a city skyline at sunset. Warm haze, birds crossing frame, grand and hopeful.
@@ -541,7 +539,7 @@ Vertical 9:16. A woman at a home kitchen counter takes a bite of a freshly made 
 
 ### Anime rooftop wind `anime-stopmotion-01`
 
-`16:9` · `4-6s` · **Untested**
+`16:9` · `4-6s`
 
 ```text
 Anime style, 16:9. A high school girl stands on a rooftop at sunset, wind blowing her hair and scarf, cherry petals drifting past. Hand-drawn look, soft cel shading, warm pastel sky, gentle camera pan.
@@ -566,7 +564,7 @@ Anime style, 16:9. A high school girl stands on a rooftop at sunset, wind blowin
 
 ### Claymation breakfast `anime-stopmotion-02`
 
-`16:9` · `4-6s` · **Untested**
+`16:9` · `4-6s`
 
 ```text
 Stop-motion claymation, 16:9. A clay fried egg hops out of a pan onto a plate, followed by two strips of bacon that wiggle into a smile shape. Visible fingerprints on clay, slightly choppy 12fps feel, warm kitchen set.
@@ -591,7 +589,7 @@ Stop-motion claymation, 16:9. A clay fried egg hops out of a pan onto a plate, f
 
 ### Chibi spell cast `anime-stopmotion-03`
 
-`16:9` · `4-6s` · **Untested**
+`16:9` · `4-6s`
 
 ```text
 Anime chibi style, 16:9. A small wizard character waves a wand, glowing sparkles spiral out and form a star above its head. Bright colors, thick outlines, playful bouncy motion, simple forest background.
@@ -616,7 +614,7 @@ Q版动画风格，16:9。小巫师角色挥动魔杖，发光的星光螺旋飞
 
 ### Felt diorama town `anime-stopmotion-04`
 
-`16:9` · `4-6s` · **Untested**
+`16:9` · `4-6s`
 
 ```text
 Stop-motion felt and paper diorama, 16:9. A tiny felt bus drives through a paper town, wobbling slightly, cotton clouds above. Tilt-shift look, warm craft textures, handmade charm.
@@ -641,7 +639,7 @@ Stop-motion felt and paper diorama, 16:9. A tiny felt bus drives through a paper
 
 ### Mecha hangar anime `anime-stopmotion-05`
 
-`16:9` · `4-6s` · **Untested**
+`16:9` · `4-6s`
 
 ```text
 Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam vents hiss, cables drop away. Low angle camera, dramatic lighting, detailed mechanical lines, 90s anime aesthetic.
@@ -670,7 +668,7 @@ Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam ven
 
 ### Misty forest dawn `nature-landscapes-01`
 
-`16:9` · `6-10s` · **Untested**
+`16:9` · `6-10s`
 
 ```text
 16:9. Sunbeams break through a misty pine forest at dawn, light rays moving slowly as fog drifts. Camera slowly pushes forward along a moss path. Green and gold tones, peaceful, natural.
@@ -695,7 +693,7 @@ Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam ven
 
 ### Ocean cliff waves `nature-landscapes-02`
 
-`16:9` · `6-10s` · **Untested**
+`16:9` · `6-10s`
 
 ```text
 16:9 aerial drone shot. Turquoise waves crash against dark rocky cliffs, white foam spreading. Drone slowly flies along the coastline. Overcast soft light, dramatic and fresh.
@@ -720,7 +718,7 @@ Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam ven
 
 ### Northern lights lake `nature-landscapes-03`
 
-`16:9` · `6-10s` · **Untested**
+`16:9` · `6-10s`
 
 ```text
 16:9 time-lapse style. Green and purple aurora ripple across a starry sky above a still mountain lake, reflected in the water. Static camera, silhouetted pines, cold night atmosphere.
@@ -745,7 +743,7 @@ Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam ven
 
 ### Waterfall close `nature-landscapes-04`
 
-`16:9` · `6-10s` · **Untested**
+`16:9` · `6-10s`
 
 ```text
 16:9. Close view of a jungle waterfall, water cascading over mossy rocks, mist rising, ferns trembling in the spray. Slight slow motion, lush green, bright diffused light.
@@ -770,7 +768,7 @@ Anime style, 16:9. A giant robot in a hangar powers on: eyes light up, steam ven
 
 ### Wheat field wind `nature-landscapes-05`
 
-`16:9` · `6-10s` · **Untested**
+`16:9` · `6-10s`
 
 ```text
 16:9 low angle. Golden wheat sways in waves under a big summer sky with slow-moving clouds. Camera slowly glides through the wheat tops. Warm late-afternoon sun, nostalgic mood.

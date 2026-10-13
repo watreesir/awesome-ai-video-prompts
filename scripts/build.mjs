@@ -2,7 +2,7 @@
 import fs from 'node:fs'; import path from 'node:path';
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const cats = JSON.parse(fs.readFileSync(`${root}/data/categories.json`, 'utf8'));
-const REQ = ['id','title','category','prompt_en','prompt_zh','aspect_ratio','duration','model_tested','test_status','why_it_works','variations','result_check','sources'];
+const REQ = ['id','title','category','prompt_en','prompt_zh','aspect_ratio','duration','model_tested','why_it_works','variations','result_check','sources'];
 const errs = []; const ids = new Set();
 const prompts = fs.readdirSync(`${root}/data/prompts`).filter(f => f.endsWith('.json')).sort().map(f => {
   let p; try { p = JSON.parse(fs.readFileSync(`${root}/data/prompts/${f}`, 'utf8')); } catch (e) { errs.push(`${f}: invalid JSON`); return null; }
@@ -10,8 +10,8 @@ const prompts = fs.readdirSync(`${root}/data/prompts`).filter(f => f.endsWith('.
   if (ids.has(p.id)) errs.push(`${f}: duplicate id ${p.id}`); ids.add(p.id);
   if (`${p.id}.json` !== f) errs.push(`${f}: filename != id`);
   if (!cats[p.category]) errs.push(`${f}: unknown category ${p.category}`);
-  if (!['Untested','Tested'].includes(p.test_status)) errs.push(`${f}: bad test_status`);
-  if (p.test_status === 'Untested' && p.model_tested.length) errs.push(`${f}: Untested but model_tested not empty`);
+  if ('test_status' in p) errs.push(`${f}: test_status is not used; remove it`);
+  if (!Array.isArray(p.model_tested)) errs.push(`${f}: model_tested must be an array`);
   return p; }).filter(Boolean);
 for (const c of Object.keys(cats)) { const n = prompts.filter(p => p.category === c).length; if (n < 5) errs.push(`category ${c}: ${n} < 5`); }
 if (errs.length) { console.error(errs.join('\n')); process.exit(1); }
@@ -26,7 +26,6 @@ const md = zh => {
   L.push(zh ? '[English](README.md) | 简体中文' : 'English | [简体中文](README.zh-CN.md)', '');
   L.push(zh ? `${prompts.length} 条原创 AI 视频提示词，分 ${Object.keys(cats).length} 类。每条包含英文/中文提示词、设计理由、变体和结果检查点。提示词采用 CC0，可自由使用。`
             : `${prompts.length} original AI video prompts in ${Object.keys(cats).length} categories. Each entry has an English and Chinese prompt, why it works, variations and a result checklist. Prompts are CC0.`, '');
-  L.push(zh ? '> **测试状态**：标记 `Untested` 的条目尚未实际生成验证，“设计理由”是写作思路，不是实测结论。' : '> **Test status:** entries marked `Untested` have not been generated yet. "Why it works" explains the design intent, not a measured result.', '');
   L.push(zh ? `维护者：[Everygen AI](${HOME})，一个在浏览器里创作 AI 视频、图片和音乐的工作室。` : `Maintained by [Everygen AI](${HOME}), a browser studio for AI video, image and music creation.`, '');
   L.push(zh ? `想快速拼一条结构化提示词？试试在线的 [AI 视频提示词构建器](${SPACE})（纯规则、浏览器内运行、不调用 API）。` : `Want to assemble your own? Try the rule-based [AI Video Prompt Builder on Hugging Face](${SPACE}) (runs in your browser, no API).`, '');
   L.push(zh ? '## 目录' : '## Contents', '');
@@ -35,7 +34,7 @@ const md = zh => {
   for (const [k, v] of Object.entries(cats)) {
     L.push(`<a id="${k}"></a>`, '', `## ${zh ? v.zh : v.en}`, '');
     for (const p of by(k)) {
-      L.push(`### ${p.title} \`${p.id}\``, '', `\`${p.aspect_ratio}\` · \`${p.duration}\` · **${p.test_status}**`, '');
+      L.push(`### ${p.title} \`${p.id}\``, '', `\`${p.aspect_ratio}\` · \`${p.duration}\``, '');
       L.push('```text', zh ? p.prompt_zh : p.prompt_en, '```', '');
       if (!zh) L.push('<details><summary>中文</summary>', '', '```text', p.prompt_zh, '```', '', '</details>', '');
       L.push(`**${zh ? '设计理由' : 'Why it works'}:** ${p.why_it_works}`, '');
@@ -49,12 +48,12 @@ const md = zh => {
 };
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const page = (title, desc, body, foot) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="stylesheet" href="style.css"></head><body><main>${body}<footer>${foot}<p>Prompts CC0 · Code MIT</p></footer></main></body></html>\n`;
-const card = p => `<article id="${p.id}"><h3>${esc(p.title)}</h3><p class="meta">${p.aspect_ratio} · ${p.duration} · <b>${p.test_status}</b></p><pre>${esc(p.prompt_en)}</pre><details><summary>中文</summary><pre>${esc(p.prompt_zh)}</pre></details><p><b>Why it works:</b> ${esc(p.why_it_works)}</p><p><b>Variations:</b> ${esc(p.variations.join('; '))}</p><p><b>Result check:</b></p><ul>${p.result_check.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></article>`;
+const card = p => `<article id="${p.id}"><h3>${esc(p.title)}</h3><p class="meta">${p.aspect_ratio} · ${p.duration}</p><pre>${esc(p.prompt_en)}</pre><details><summary>中文</summary><pre>${esc(p.prompt_zh)}</pre></details><p><b>Why it works:</b> ${esc(p.why_it_works)}</p><p><b>Variations:</b> ${esc(p.variations.join('; '))}</p><p><b>Result check:</b></p><ul>${p.result_check.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></article>`;
 const out = {};
 out['README.md'] = md(false); out['README.zh-CN.md'] = md(true);
 const nav = `<nav><a href="index.html">All</a> ${Object.entries(cats).map(([k,v])=>`<a href="${k}.html">${esc(v.en)}</a>`).join(' ')}</nav>`;
 out['site/index.html'] = page('Awesome AI Video Prompts – 30 original prompts with result checks', 'Original, CC0 AI video prompts for shorts, product ads, UGC, cinematic shots, anime and landscapes, each with variations and a result checklist.',
-  `<h1>Awesome AI Video Prompts</h1><p>${prompts.length} original prompts. Entries marked Untested have not been generated yet.</p>${nav}<ul>${Object.entries(cats).map(([k,v])=>`<li><a href="${k}.html">${esc(v.en)}</a> — ${by(k).length} prompts</li>`).join('')}</ul>`,
+  `<h1>Awesome AI Video Prompts</h1><p>${prompts.length} original prompts with variations and a result checklist.</p>${nav}<ul>${Object.entries(cats).map(([k,v])=>`<li><a href="${k}.html">${esc(v.en)}</a> — ${by(k).length} prompts</li>`).join('')}</ul>`,
   `<p>New to prompt structure? Read this <a href="${GUIDE}">step-by-step guide to writing AI video prompts</a>. Maintained by <a href="${HOME}">Everygen AI</a>, a browser studio for AI video, image and music.</p>`);
 for (const [k,v] of Object.entries(cats)) out[`site/${k}.html`] = page(`${v.en} AI Video Prompts – Awesome AI Video Prompts`, `${by(k).length} original ${v.en.toLowerCase()} prompts for AI video models, with variations and result checks.`,
   `<h1>${esc(v.en)} prompts</h1>${nav}${by(k).map(card).join('')}`,

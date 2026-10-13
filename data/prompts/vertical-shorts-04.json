@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "A small, sequenced action (left then right) is easier for models than complex motion and reads instantly on a phone screen.",
   "variations": [
     "Cat version with a laser dot",

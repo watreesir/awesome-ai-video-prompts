@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Overhead locked framing keeps hands readable and is a reliable format for how-to shorts without needing on-screen text.",
   "variations": [
     "Tie a tie instead",

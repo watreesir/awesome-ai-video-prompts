@@ -7,7 +7,6 @@
   "aspect_ratio": "16:9",
   "duration": "6-10s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Volumetric light plus drifting fog gives motion even with a slow camera.",
   "variations": [
     "Autumn birch forest",

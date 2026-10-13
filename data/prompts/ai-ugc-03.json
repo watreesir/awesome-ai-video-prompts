@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-10s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Car-selfie is a high-recognition UGC setting; describing gestures instead of exact speech avoids lip-sync promises.",
   "variations": [
     "Kitchen setting",

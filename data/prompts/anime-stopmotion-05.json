@@ -7,7 +7,6 @@
   "aspect_ratio": "16:9",
   "duration": "4-6s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "A clear trigger-to-effect sequence (power on → lights → steam) gives the model ordered events.",
   "variations": [
     "Rainy launch pad",

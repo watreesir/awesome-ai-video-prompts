@@ -7,7 +7,6 @@
   "aspect_ratio": "16:9",
   "duration": "4-6s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Explicitly asking for frame-rate choppiness and fingerprints tells the model to avoid overly smooth CG motion.",
   "variations": [
     "Clay animals",

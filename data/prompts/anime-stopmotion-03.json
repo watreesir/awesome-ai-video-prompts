@@ -7,7 +7,6 @@
   "aspect_ratio": "16:9",
   "duration": "4-6s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Simple shapes and thick outlines keep chibi characters stable across frames.",
   "variations": [
     "Fire spell",

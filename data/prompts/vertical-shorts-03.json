@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Uses a camera tilt as a hidden transition so the change happens off-frame, a common way to make transformation clips read clearly.",
   "variations": [
     "Kitchen counter version",

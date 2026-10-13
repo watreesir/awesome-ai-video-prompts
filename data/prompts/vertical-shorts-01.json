@@ -7,7 +7,6 @@
   "aspect_ratio": "9:16",
   "duration": "5-8s",
   "model_tested": [],
-  "test_status": "Untested",
   "why_it_works": "Opens on motion in frame one to earn the scroll-stop; a single subject and a static camera reduce warping in liquid.",
   "variations": [
     "Swap espresso for matcha",
